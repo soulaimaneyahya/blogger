@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.avatar {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+.comment-textarea {
+    max-height: 100px; min-height: 70px
+}
